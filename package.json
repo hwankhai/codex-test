@@ -1,0 +1,33 @@
+{
+  "name": "codex-test",
+  "version": "1.0.0",
+  "description": "테스트용 웹페이지 프로젝트",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000",
+    "test": "echo \"테스트 스크립트를 실행합니다.\" && node -e \"console.log('Node.js 테스트 완료')\"",
+    "build": "echo \"빌드 과정이 완료되었습니다.\"",
+    "clean": "echo \"정리 작업을 수행합니다.\""
+  },
+  "keywords": [
+    "test",
+    "html",
+    "css",
+    "javascript",
+    "frontend",
+    "codex"
+  ],
+  "author": "Codex Test Team",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/codex-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/codex-test/issues"
+  },
+  "homepage": "https://github.com/your-username/codex-test#readme"
+}

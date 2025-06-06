@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codex Test Project</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Codex Test Project</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">홈</a></li>
+                <li><a href="#features">기능</a></li>
+                <li><a href="#tests">테스트</a></li>
+                <li><a href="#contact">연락처</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>테스트용 웹페이지에 오신 것을 환영합니다!</h2>
+                <p>이 페이지는 HTML, CSS, JavaScript 테스트를 위해 만들어졌습니다.</p>
+                <button id="testBtn" class="cta-button">테스트 시작</button>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2>테스트 기능</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h3>HTML 테스트</h3>
+                        <p>다양한 HTML 요소들의 동작을 테스트합니다.</p>
+                        <button onclick="htmlTest()">HTML 테스트</button>
+                    </div>
+                    <div class="feature-card">
+                        <h3>CSS 테스트</h3>
+                        <p>스타일링과 애니메이션을 테스트합니다.</p>
+                        <button onclick="cssTest()">CSS 테스트</button>
+                    </div>
+                    <div class="feature-card">
+                        <h3>JavaScript 테스트</h3>
+                        <p>인터랙티브한 기능들을 테스트합니다.</p>
+                        <button onclick="jsTest()">JS 테스트</button>
+                    </div>
+                    <div class="feature-card">
+                        <h3>API 테스트</h3>
+                        <p>외부 API 연동을 테스트합니다.</p>
+                        <button onclick="apiTest()">API 테스트</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tests" class="tests">
+            <div class="container">
+                <h2>테스트 결과</h2>
+                <div id="testResults" class="test-results">
+                    <p>테스트를 실행하면 결과가 여기에 표시됩니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>연락처</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">이름:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">이메일:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">메시지:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">전송</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Codex Test Project. 테스트 목적으로 제작되었습니다.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
